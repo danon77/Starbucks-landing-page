@@ -1,0 +1,366 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    background: #ddd;
+}
+    
+.page{
+    position: relative;
+    width: 450px;
+    height: 980px;
+    
+    background: #fff;
+    
+    overflow: hidden;
+}
+    
+.logo{
+    position: absolute;
+    width: 73px;
+    height: 61px;
+    left: 19px;
+    top: 18px;
+}
+    
+header{
+    width: 450px; 
+    height: 100px;
+}
+    
+main{
+    position: absolute;
+    width: 450px;
+    height: 580px;
+}
+    
+footer{
+    position: absolute;
+    top: 680px;
+    width: 450px;
+    height: 300px;
+}
+    
+.burger-icon{
+    position: absolute;
+    width: 49px;
+    height: 39px;
+    left: 377px;
+    top: 27px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+    
+.line{
+    width: 49px;
+    height: 5px;
+    
+    background: #00704A;
+    border-radius: 20px;
+}
+.line:nth-child(2){
+    width: 33px;
+}
+    
+h1{
+    position: absolute;
+    width: 407px;
+    height: 68px;
+    left: 19px;
+    top: 55px;
+    
+    font-family: 'Itim';
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.02em;
+}
+    
+h3{
+    position: absolute;
+    width: 407px;
+    height: 241px;
+    left: 19px;
+    top: 123px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 0.05em;
+}
+    
+.btn{
+    position: absolute;
+    padding: 24px 27px 24px 28px;
+    left: 141px;
+    top: 412px;
+    
+    background: #00704A;
+    color: #fff;
+    
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+}
+    
+    
+.social{
+    display: none;
+}
+    
+.menu{
+    display: none;
+}
+    
+.ellipse{
+    position: absolute;
+    width: 509px;
+    height: 366px;
+    left: -31px;
+    top: 743px;
+    
+    background: #00704A;
+    border-radius: 60%;
+    }
+    
+.coffee{
+    position: absolute;
+    width: 305.28px;
+    height: 296.9px;
+    left: 70px;
+    top: -85px;
+    
+    filter: drop-shadow(10px 40px 30px rgba(0, 0, 0, 0.25));
+    transform: rotate(-30deg);
+}
+
+
+
+@media(min-width: 1440px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+        
+    body{
+        background: #ccc;
+    }
+        
+    .page{
+        position: relative;
+        width: 1440px;
+        height: 980px;
+        background: #00704A;
+        
+        overflow: hidden;
+    }
+        
+    header{
+        width: 1440px;
+        height: 150px;
+    }
+        
+    .menu{
+        display: flex;
+        justify-content: space-between;
+        position: absolute;
+        width: 483px;
+        height: 24px;
+        left: 812px;
+        top: 49px;
+    }
+        
+    .logo{
+        position: absolute;
+        width: 73px;
+        height: 61px;
+        left: 144px;
+        top: 30px;
+    }
+        
+    .m-btn{
+        text-decoration: none;
+        color: #fff;
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.02em;
+        transition: color 0.1s linear;
+    }
+    .m-btn:nth-child(1){
+        color: #B37C43;
+            
+        font-weight: 700;
+        border-bottom: 5px solid  #00704A;
+        margin-bottom: -13px;
+    }
+    .m-btn:hover{
+        color: #cfcfcf;
+    }
+    .m-btn:nth-child(1):hover{
+        color: #815a31
+    }
+        
+    main{
+        width: 900px;
+        height: 830px;
+    }
+        
+    footer{
+        position: absolute;
+        width: 540px;
+        height: 830px;
+        top: 150px;
+        left: 900px;
+    }
+        
+    .ellipse{
+        position: absolute;
+        width: 1497px;
+        height: 1497px;
+        left: -464px;
+        top: -258px;
+        
+        background-color: #fff;
+        border-radius: 60%;
+    }
+        
+    h1{
+        position: absolute;
+        width: 349px;
+        height: 70px;
+        left: 114px;
+        top: 50px;
+        
+        font-family: 'Itim', sans-serif;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 60px;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.02em
+    }
+        
+    h3{
+        position: absolute;
+        width: 641px;
+        height: 367px;
+        left: 144px;
+        top: 120px;
+        
+        font-family: 'Lato', sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 60px;
+        display: flex;
+        align-items: center;
+        text-align: left;
+        letter-spacing: 0.05em;
+    }
+        
+    .btn{
+        position: absolute;
+        padding: 26px 31px 27px 31px;
+        left: 160px;
+        top: 518px;
+        
+        background: #00704A;
+        
+        font-family: 'Lato', sans-serif;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 36px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.02em;
+        text-decoration: none;
+        
+        color: #fff;
+        
+        box-shadow: 20px 20px 40px #E5E5E5;
+        border-radius: 5px;
+        transition: background 0.1s linear;
+    }
+    .btn:hover{
+        background: #005035;
+    }
+        
+    .coffee{
+        position: absolute;
+        width: 510px;
+        height: 496px;
+        left: -115px;
+        top: 92px;
+
+        transform: rotate(0deg);
+    }
+        
+    .social{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: absolute;
+        width: 50px;
+        height: 172px;
+        left: 470px;
+        top: 274px;
+    }
+        
+    .facebook{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+        left: px;
+        top: px;
+    }
+    .instagram{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+    }
+    .twitter{
+        position: absolute;
+        width: 30px;
+        height: 30px;
+    }
+        
+    .f-plate, .i-plate, .t-plate{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 50px;
+        height: 50px;
+        
+        background: #fff;
+        
+        border-radius: 100%;
+    }
+
+    .burger-icon{
+        display: none;
+    }
+}
